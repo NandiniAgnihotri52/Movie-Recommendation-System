@@ -32,12 +32,22 @@ The project analyzes movie features such as genres, keywords, cast, crew, and ov
 
 ## 📂 Dataset
 
-The dataset used in this project is the TMDB 5000 Movies Dataset.
+The dataset used in this project is the TMDB 5000 Movies Dataset:
+- tmdb_5000_movies.csv
+- tmdb_5000_credits.csv
 
 Due to GitHub file size limitations, the dataset files are not included in this repository.
 
 Dataset source:
 https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+---
+
+## Note
+
+The `similarity.pkl` file is not included in this repository because it exceeds GitHub's file size limit.
+
+To generate it, run the Jupyter Notebook provided in the `notebooks` folder. The notebook will preprocess the dataset, compute cosine similarity, and create the required pickle files.
 
 ---
 
@@ -63,15 +73,10 @@ Movie-Recommendation-System/
 ├── README.md
 ├── .gitignore
 │
-├── dataset/
-│   ├── tmdb_5000_movies.csv
-│   └── tmdb_5000_credits.csv
-│
 └── notebooks/
     └── Movie_Recommendation_Model.ipynb
 │
 ├── movies_dict.pkl
-├── similarity.pkl
 ```
 
 ---
@@ -81,7 +86,7 @@ Movie-Recommendation-System/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Movie-Recommendation-System.git
+git clone https://github.com/NandiniAgnihotri52/Movie-Recommendation-System.git
 ```
 
 ### Move to Project Directory
