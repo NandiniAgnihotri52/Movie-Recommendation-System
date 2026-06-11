@@ -32,10 +32,12 @@ The project analyzes movie features such as genres, keywords, cast, crew, and ov
 
 ## 📂 Dataset
 
-The project uses the TMDB 5000 Movie Dataset:
+The dataset used in this project is the TMDB 5000 Movies Dataset.
 
-- tmdb_5000_movies.csv
-- tmdb_5000_credits.csv
+Due to GitHub file size limitations, the dataset files are not included in this repository.
+
+Dataset source:
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ---
 
